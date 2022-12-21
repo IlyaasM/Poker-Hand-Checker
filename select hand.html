@@ -1,0 +1,369 @@
+﻿<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+
+    <title>PRG550 Poker</title>
+
+
+</head>
+<body style="padding: 5px; background-color: transparent;">
+    <form method="post" action="../cgi-bin/imohamed23_PRG550C.223.A2.py">
+        <p></p>
+        <h1 style="text-align:center">Select 5 cards, Then <span style="color:red">Check</span> To See Hand Type</h1>
+        <div class="container">
+
+            <div>
+                <input type="checkbox" id="2h" name="hand" value="2h">
+                <label for="2h">
+                    <img src="cards/2h.png" id="2hh" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="3h" name="hand" value="3h">
+                <label for="3h">
+                    <img src="cards/3h.png" id="3hh" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="4h" name="hand" value="4h">
+                <label for="4h">
+                    <img src="cards/4h.png" id="4hh" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="5h" name="hand" value="5h">
+                <label for="5h">
+                    <img src="cards/5h.png" id="5hh" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="6h" name="hand" value="6h">
+                <label for="6h">
+                    <img src="cards/6h.png" id="6hh" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="7h" name="hand" value="7h">
+                <label for="7h">
+                    <img src="cards/7h.png" id="7hh" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="8h" name="hand" value="8h">
+                <label for="8h">
+                    <img src="cards/8h.png" id="8hh" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="9h" name="hand" value="9h">
+                <label for="9h">
+                    <img src="cards/9h.png" id="9hh" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="th" name="hand" value="th">
+                <label for="th">
+                    <img src="cards/th.png" id="thh" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="jh" name="hand" value="jh">
+                <label for="jh">
+                    <img src="cards/jh.png" id="jhh" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="qh" name="hand" value="qh">
+                <label for="qh">
+                    <img src="cards/qh.png" id="qhh" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="kh" name="hand" value="kh">
+                <label for="kh">
+                    <img src="cards/kh.png" id="khh" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="ah" name="hand" value="ah">
+                <label for="ah">
+                    <img src="cards/ah.png" id="ahh" onclick="myFunction(event)">
+                </label>
+            </div>
+            <div style="padding-top: 20px">
+                <input type="checkbox" id="2d" name="hand" value="2d">
+                <label for="2d">
+                    <img src="cards/2d.png" id="2dd" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="3d" name="hand" value="3d">
+                <label for="3d">
+                    <img src="cards/3d.png" id="3dd" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="4d" name="hand" value="4d">
+                <label for="4d">
+                    <img src="cards/4d.png" id="4dd" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="5d" name="hand" value="5d">
+                <label for="5d">
+                    <img src="cards/5d.png" id="5dd" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="6d" name="hand" value="6d">
+                <label for="6d">
+                    <img src="cards/6d.png" id="6dd" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="7d" name="hand" value="7d">
+                <label for="7d">
+                    <img src="cards/7d.png" id="7dd" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="8d" name="hand" value="8d">
+                <label for="8d">
+                    <img src="cards/8d.png" id="8dd" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="9d" name="hand" value="9d">
+                <label for="9d">
+                    <img src="cards/9d.png" id="9dd" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="td" name="hand" value="td">
+                <label for="td">
+                    <img src="cards/td.png" id="tdd" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="jd" name="hand" value="jd">
+                <label for="jd">
+                    <img src="cards/jd.png" id="jdd" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="qd" name="hand" value="qd">
+                <label for="qd">
+                    <img src="cards/qd.png" id="qdd" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="kd" name="hand" value="kd">
+                <label for="kd">
+                    <img src="cards/kd.png" id="kdd" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="ad" name="hand" value="ad">
+                <label for="ad">
+                    <img src="cards/ad.png" id="add" onclick="myFunction(event)">
+                </label>
+            </div>
+            <div style="padding-top: 20px">
+                <input type="checkbox" id="2s" name="hand" value="2s">
+                <label for="2s">
+                    <img src="cards/2s.png" id="2ss" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="3s" name="hand" value="3s">
+                <label for="3s">
+                    <img src="cards/3s.png" id="3ss" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="4s" name="hand" value="4s">
+                <label for="4s">
+                    <img src="cards/4s.png" id="4ss" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="5s" name="hand" value="5s">
+                <label for="5s">
+                    <img src="cards/5s.png" id="5ss" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="6s" name="hand" value="6s">
+                <label for="6s">
+                    <img src="cards/6s.png" id="6ss" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="7s" name="hand" value="7s">
+                <label for="7s">
+                    <img src="cards/7s.png" id="7ss" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="8s" name="hand" value="8s">
+                <label for="8s">
+                    <img src="cards/8s.png" id="8ss" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="9s" name="hand" value="9s">
+                <label for="9s">
+                    <img src="cards/9s.png" id="9ss" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="ts" name="hand" value="ts">
+                <label for="ts">
+                    <img src="cards/ts.png" id="tss" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="js" name="hand" value="js">
+                <label for="js">
+                    <img src="cards/js.png" id="jss" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="qs" name="hand" value="qs">
+                <label for="qs">
+                    <img src="cards/qs.png" id="qss" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="ks" name="hand" value="ks">
+                <label for="ks">
+                    <img src="cards/ks.png" id="kss" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="as" name="hand" value="as">
+                <label for="as">
+                    <img src="cards/as.png" id="ass" onclick="myFunction(event)">
+                </label>
+            </div>
+            <div style="padding-top: 20px">
+                <input type="checkbox" id="2c" name="hand" value="2c">
+                <label for="2c">
+                    <img src="cards/2c.png" id="2cc" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="3c" name="hand" value="3c">
+                <label for="3c">
+                    <img src="cards/3c.png" id="3cc" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="4c" name="hand" value="4c">
+                <label for="4c">
+                    <img src="cards/4c.png" id="4cc" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="5c" name="hand" value="5c">
+                <label for="5c">
+                    <img src="cards/5c.png" id="5cc" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="6c" name="hand" value="6c">
+                <label for="6c">
+                    <img src="cards/6c.png" id="6cc" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="7c" name="hand" value="7c">
+                <label for="7c">
+                    <img src="cards/7c.png" id="7cc" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="8c" name="hand" value="8c">
+                <label for="8c">
+                    <img src="cards/8c.png" id="8cc" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="9c" name="hand" value="9c">
+                <label for="9c">
+                    <img src="cards/9c.png" id="9cc" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="tc" name="hand" value="tc">
+                <label for="tc">
+                    <img src="cards/tc.png" id="tcc" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="jc" name="hand" value="jc">
+                <label for="jc">
+                    <img src="cards/jc.png" id="jcc" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="qc" name="hand" value="qc">
+                <label for="qc">
+                    <img src="cards/qc.png" id="qcc" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="kc" name="hand" value="kc">
+                <label for="kc">
+                    <img src="cards/kc.png" id="kcc" onclick="myFunction(event)">
+                </label>
+
+                <input type="checkbox" id="ac" name="hand" value="ac">
+                <label for="ac">
+                    <img src="cards/ac.png" id="acc" onclick="myFunction(event)">
+                </label>
+            </div>
+        </div>
+
+	<div class="buttons">
+            <input type="submit" name="Check" value="Check" style="font-size: 30px;">
+        </div>
+	<div class="buttons">
+        <a href = "imohamed23_PRG550C.223.A2.html" ><input type = "button" value = "Reset Cards" style="font-size: 20px;"> </a>	
+	</div>
+
+    </form>
+    <script type="text/javascript">
+        function myFunction(e) {
+            let img = document.getElementById(e.target.id);
+
+
+            if (img.classList.contains("imgclicked")) {
+
+                img.classList.remove("imgclicked");
+            } else { img.classList.add("imgclicked");}
+
+
+        }
+    </script>
+
+    <style>
+        .container {
+            text-align: center;
+            background-color: transparent;
+        }
+
+            .container label:hover {
+                filter: drop-shadow(1px 1px 1px #0094ff);
+            }
+
+
+            .container img:active {
+                box-shadow: 10px 10px 10px #ff0000;
+            }
+
+
+            .container input {
+                visibility: hidden;
+            }
+
+        .buttons {
+            text-align: center;
+            padding-top: 30px;
+        }
+
+            .buttons:hover {
+                filter: drop-shadow(3px 3px 3px #000000);
+            }
+
+        html, body {
+            width: 95%;
+            height: 95%;
+        }
+
+            body:not(.container) {
+                opacity: 0.8;
+            }
+
+        body {
+            background: linear-gradient(-45deg, #148F77, #1ABC9C, #A3E4D7, #E8F6F3);
+            background-size: 400% 400%;
+            animation: gradient 10s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 95% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .imgclicked {
+            box-shadow: 10px 10px 10px #ff0000;
+        }
+    </style>
+
+
+
+</body>
+</html>
